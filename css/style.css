@@ -1,0 +1,156 @@
+body{
+    background: rgba(135, 207, 235, 0.411);
+    
+}
+
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: 'Bitter', serif;
+    height: 100%;
+    font-family: Oswald, sans-serif;
+   
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+h1{
+    margin: 50px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+    color: rgb(25, 0, 255);
+    font-size: 56px;
+    font-family: Oswald, sans-serif;
+    
+}
+h1:hover{
+    color: bisque;
+    cursor: default;
+    border-color: aqua;
+}
+
+.controls{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    border-top: 3px solid rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+button{
+    color: blueviolet;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: Oswald, sans-serif;
+}
+
+button:hover{
+    color: rgb(204, 22, 22);
+    cursor: pointer;
+}
+
+#Mars{
+    background: url(/img/Mars.jpg) 0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+
+    
+}
+#Mars:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Athena{
+    background: url(/img/Athena.jpg) 0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Athena:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Diana{
+    background: url(/img/Diana.jpg) 0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Diana:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Freya{
+    background: url(/img/Freya.jpg)0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Freya:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Poseidon{
+    background: url(/img/Poseidon.jpg)0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Poseidon:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Venus{
+    background: url(/img/Venus.jpg)0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Venus:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Thor{
+    background: url(/img/Thor.jpg)0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Thor:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+#Zeus{
+    background: url(/img/zeus.jpg)0 0/ cover no-repeat;
+    border: 10px solid rgb(223, 15, 15);
+}
+#Zeus:hover{
+    box-shadow: 7px 7px 9px 6px;
+    cursor: pointer;
+}
+
+.mix{
+    background-size:cover ;
+    background-position: center  center;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.fil p{
+    margin: 0;
+    padding: 10px;
+}
+
+
+ 
+
+
+
+
+

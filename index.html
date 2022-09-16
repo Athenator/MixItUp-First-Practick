@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>MixItUp</title>
+  </head>
+  <body>
+    <section class="portfolio">
+      <h1>Божества разных народов древности</h1>
+      <div class="controls">
+        <button type="button" data-filter="all">Все </button> |
+        <button type="button" data-filter=".category-greece">Греческие божества </button> |
+        <button type="button" data-filter=".category-rome">Римские божества </button> |
+        <button type="button" data-filter=".category-scandinavia">Божества Скандинавии </button> |
+        <button type="button" data-filter=".category-woman">Женщины </button> |
+        <button type="button" data-filter=".category-men">Мужчины </button>
+      </div>
+      <div class="container">
+        <div id='Mars' class="mix category-rome category-men"></div>
+        <div id='Venus' class="mix category-rome category-woman" ></div>
+        <div id='Zeus' class="mix category-greece category-men" ></div>
+        <div id='Athena' class="mix category-greece category-woman" ></div>
+        <div id='Thor' class="mix category-scandinavia category-men" ></div>
+        <div id='Freya' class="mix category-scandinavia category-woman" ></div>
+      </div>
+    </section>
+  </body>
+  <script src='/js/mixitup.min.js'></script>
+  <script src="/js/main.js"></script>
+</html>
